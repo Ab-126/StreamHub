@@ -19,7 +19,7 @@ export const Logo = () => {
           StreamVibe
         </p>
         <p className={cn("text-sm text-muted-foreground", font.className)}>
-          Let's Stream
+          Let&apos;s Stream
         </p>
       </div>
     </div>

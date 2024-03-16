@@ -11,7 +11,7 @@ export const Results = async ({ term }: ResultProps) => {
 
   return (
     <div>
-      <h2 className="text-lg font-semibold mb-4">Results for term "{term}"</h2>
+      <h2 className="text-lg font-semibold mb-4">Results for term &apos;{term}&apos;</h2>
       {data.length === 0 && (
         <p className="text-muted-foreground text-sm">
           No results found. Try searching for something else
