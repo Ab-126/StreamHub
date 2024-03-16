@@ -56,10 +56,12 @@ export const createIngress = async (ingressType: IngressInput) => {
     options.bypassTranscoding = true;
   } else {
     options.video = {
+      //@ts-ignore
       source: TrackSource.CAMERA,
       preset: IngressVideoEncodingPreset.H264_1080P_30FPS_3_LAYERS_HIGH_MOTION,
     };
     options.audio = {
+      //@ts-ignore
       source: TrackSource.MICROPHONE,
       preset: IngressAudioEncodingPreset.OPUS_STEREO_96KBPS,
     };
